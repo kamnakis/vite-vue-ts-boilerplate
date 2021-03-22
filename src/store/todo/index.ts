@@ -1,5 +1,5 @@
 import { Module, GetterTree, MutationTree, ActionTree } from 'vuex'
-import { StateInterface } from '../index'
+import { StateInterface } from '../'
 
 export interface ITodo {
   todos: string[]

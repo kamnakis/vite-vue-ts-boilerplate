@@ -43,7 +43,6 @@ export default defineComponent({
     const removeTodo = (index: number) => {
       store.dispatch('todo/removeTodo', index)
     }
-    
 
     return {
       todos,

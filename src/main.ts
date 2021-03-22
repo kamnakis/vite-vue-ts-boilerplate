@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 
 // Middleware
-import { router } from './router/index'
+import { router } from './router'
 
 // Components
 import App from './App.vue'
